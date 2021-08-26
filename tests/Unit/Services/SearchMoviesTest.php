@@ -6,7 +6,7 @@ namespace Guibmolina\Cinemarkcrawler\Test\Unit\Services;
 
 use Guibmolina\Cinemarkcrawler\Exceptions\SiteRequestException;
 use Guibmolina\Cinemarkcrawler\Exceptions\StatusInvalidException;
-use Guibmolina\Cinemarkcrawler\Repository\Movie as MovieRepository;
+use Guibmolina\Cinemarkcrawler\Repositories\Movie as MovieRepository;
 use Guibmolina\Cinemarkcrawler\Services\SearchMovies;
 use PHPUnit\Framework\TestCase;
 

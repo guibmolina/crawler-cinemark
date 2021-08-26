@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Guibmolina\Cinemarkcrawler\Repository;
+namespace Guibmolina\Cinemarkcrawler\Repositories;
 
 use Exception;
 use Guibmolina\Cinemarkcrawler\Entities\Movie as MovieEntity;

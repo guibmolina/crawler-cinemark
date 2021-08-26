@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Guibmolina\Cinemarkcrawler\Services;
 
 use Guibmolina\Cinemarkcrawler\Exceptions\StatusInvalidException;
-use Guibmolina\Cinemarkcrawler\Repository\Movie as MovieRepository;
+use Guibmolina\Cinemarkcrawler\Repositories\Movie as MovieRepository;
 
 class SearchMovies
 {
