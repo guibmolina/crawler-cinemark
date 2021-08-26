@@ -37,7 +37,7 @@ class Movie
         $movieList = new MovieList();
 
         $crawler->filter('article.movie div.movie-container')->each(function($node) use ($movieList, $type) {
-            $title = $node->filter('.movie-title')->text();
+            $title = $node->filter('.movie-image')->attr('title');
             $status = null;
             $ageRating = null;
                 
