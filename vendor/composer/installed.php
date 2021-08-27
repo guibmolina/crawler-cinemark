@@ -1,22 +1,22 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => '1718c1bd90c059e907cc180ae94fcf50729976ff',
         'name' => '__root__',
         'dev' => true,
     ),
     'versions' => array(
         '__root__' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => '1718c1bd90c059e907cc180ae94fcf50729976ff',
             'dev_requirement' => false,
         ),
         'doctrine/instantiator' => array(
@@ -161,12 +161,12 @@
             'dev_requirement' => true,
         ),
         'phpunit/phpunit' => array(
-            'pretty_version' => '9.5.7',
-            'version' => '9.5.7.0',
+            'pretty_version' => '9.5.8',
+            'version' => '9.5.8.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../phpunit/phpunit',
             'aliases' => array(),
-            'reference' => 'd0dc8b6999c937616df4fb046792004b33fd31c5',
+            'reference' => '191768ccd5c85513b4068bdbe99bb6390c7d54fb',
             'dev_requirement' => true,
         ),
         'psr/container' => array(
