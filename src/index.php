@@ -11,6 +11,4 @@ header('Content-type: application/json');
 
 $searchMovie = new SearchMovies(new Movie());
 
-echo $searchMovie->moviesOn('em-cartaz');
-
-
+echo $searchMovie->moviesOn($_GET["movieType"]);
